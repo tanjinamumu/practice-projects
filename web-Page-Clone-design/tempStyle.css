@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(226, 227, 237);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.title h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(76,85,101);
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+
+.box{
+    height: 180px;
+    width: 200px;
+    padding: 10px 15px;
+    box-shadow: rgb(17 17 26 / 10%) 0px 8px 24px, rgb(17 17 26 / 10%) 0px 16px 56px, rgb(17 17 26 / 10%) 0px 24px 80px;
+    border-radius: 10px;
+    background: rgb(226,228,233);
+    font-family: "Segoe UI",Arial,sans-serif;
+    margin-top: 30px;
+    float: left;
+    margin-right: 15px;
+}
+
+.box .head{
+    height: 50px;
+    width: 100%;
+}
+
+.box .head h2{
+    color: rgb(0, 0, 3);
+    text-decoration: underline;
+    float: left;
+    font-size: 20px;
+}
+
+.box .head img{
+    height: 30px;
+    float: right;
+}
+
+.box ul{
+    padding-left: 10px;
+    font-size: 14px;
+}
