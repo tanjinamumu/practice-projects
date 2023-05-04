@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(sunset-sky.jpg);
+    background-position: center;
+    height: 100vh;
+}
+
+.navbar{
+    width: 1430px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+    padding-top: 15px;
+}
+
+.logo{
+    color: #db680a;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    padding-top: 10px;
+}
+
+.menu {
+    width: 1230px;
+    height: 70px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.2s ease-in-out;
+}
+
+ul li a:hover{
+    color: #db680a;
+}
+
+.search{
+    width: 270px;
+    float: right;
+    margin-top: -52px;
+    display: flex;
+}
+
+.srch{
+    font-family: 'Times New Roman', Times, serif;
+    width: 265px;
+    height: 40px;
+    background: transparent;
+    border: 3px solid #db680a;
+    margin-top: 13px;
+    color: #ffffff;
+    padding-left: 85px
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+
+.srch::placeholder{
+    color: #ffff;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.btn{
+    width: 80px;
+    height: 40px;
+    background: #db680a;
+    border: 2px solid #db680a;
+    margin: 13px;
+    color: #ffffff;
+    font-size: 15px;
+    border-radius: 15px;
+}
+
+.btn:focus{
+    outline: none;
+}
